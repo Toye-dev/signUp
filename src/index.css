@@ -395,6 +395,7 @@ label {
   form {
     margin-left: 0px;
     margin-top: -10px;
+    position: relative;
   }
 
   .email-input {
@@ -417,14 +418,10 @@ label {
     text-shadow: 0 0 .3px;
   }
   
-  .email-address {
-    position: relative;
-  }
-  
   .error-div {
-    position: fixed;
-    bottom: 291px;
-    left: 10px;
+    position: absolute;
+    bottom: 97px;
+    left: -155px;
     font-size: 10px;
     font-weight: 600;
     color:hsla(4, 76%, 56%, 0.756);
