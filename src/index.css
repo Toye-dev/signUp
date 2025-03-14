@@ -310,6 +310,10 @@ label {
     overflow: hidden;
   }
 
+  body {
+    padding-top: 50px;
+  }
+
   .logo {
     max-width: 260px;
     height: auto;
